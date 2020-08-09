@@ -1,8 +1,25 @@
 .footer {
+  align-self: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1184px;
-  margin: 0 48px;
+  width: 90vw;
+  margin: 0;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+

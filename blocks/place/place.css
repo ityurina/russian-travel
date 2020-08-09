@@ -4,5 +4,31 @@
   display: grid;
   grid-template-columns: 50% 1fr;
   grid-template-rows: content-flow;
-  gap: 16px;   
+  gap: 48px 40px;   
+}
+
+.place:last-child {
+  margin-bottom: 0;   
+}
+
+
+@media (max-width: 1024px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    gap: 48px 28px;
+   margin: 0 auto 72px;
+  }
+}
+
+@media (max-width: 700px) {
+  .place {
+    grid-template-columns: 1fr;
+    margin: 0 auto 48px;
+    gap: 32px;
+  }
 }

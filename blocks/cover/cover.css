@@ -1,5 +1,6 @@
+
 .cover {
-  max-width: 1184px;
+  width: 92,5%;
   margin: 0 48px 92px;
   position: relative;
 }
@@ -14,5 +15,23 @@
 }
 
 .cover:hover::before {
-  opacity: 0.3
+  opacity: 0.3;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+     margin: 0 0 92px;
+}
+}
+
+@media (max-width: 768px) {
+  .cover {
+     margin: 0 0 88px;
+}
+}
+
+@media (max-width: 320px) {
+  .cover {
+     margin: 0 0 64px;
+}
 }

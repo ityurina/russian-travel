@@ -1,7 +1,19 @@
 .page {
   max-width: 1600px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   font-family: 'Inter', sans-serif;
   background-color: #2A2C2F;
   color: white;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
