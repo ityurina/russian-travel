@@ -1,0 +1,6 @@
+.header__lang-item {
+  list-style: none;
+}
+.header__lang-item:nth-child(2n) {
+  margin-left: 18px;
+}

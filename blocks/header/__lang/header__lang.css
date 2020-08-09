@@ -1,0 +1,6 @@
+.header__lang {
+  margin: 0;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
