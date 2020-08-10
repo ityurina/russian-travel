@@ -1,4 +1,4 @@
-.header {
+42.header {
   align-self: center;
   width: 90%;
   display: flex;
@@ -14,7 +14,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .header {
     margin: 24px 16px 0;
   }
