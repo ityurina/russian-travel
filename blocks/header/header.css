@@ -1,21 +1,23 @@
 .header {
-  align-self: center;
-  width: 90%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  margin: 28px 0 0;
+  padding: 28px 48px 0;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1184px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
   .header {
-    margin: 28px 24px 0;
+    padding: 28px 24px 0;
   }
 }
 
 @media (max-width: 425px) {
   .header {
-    margin: 24px 16px 0;
+    padding: 24px 16px 0;
   }
 }
