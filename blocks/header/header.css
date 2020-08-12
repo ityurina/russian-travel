@@ -6,9 +6,11 @@
   position: relative;
   margin: 0 auto;
   width: 100%;
-  max-width: 1184px;
+  max-width: 1280px;
   box-sizing: border-box;
 }
+
+
 
 @media (max-width: 768px) {
   .header {

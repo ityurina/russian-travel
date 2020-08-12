@@ -1,0 +1,19 @@
+.lead__figure {
+  padding: 0;
+  width: 984px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .lead__figure {
+    max-width: 928px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 928px) {
+  .lead__figure {
+    width: 100%;
+  }
+}
